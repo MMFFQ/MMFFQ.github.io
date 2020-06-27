@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<link rel="stylesheet" href="css/swiper.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+	<body>
+		<!--头部-->
+		<div class="header">
+			<div class="header_c">
+				<div class="logo"><img src="img/logo.png"/></div>
+				<div class="nav">
+					<div class="nav_top" align="right">
+						<a href="">登录  | </a>
+						<a href="">注册  | </a>
+					</div>
+					<div class="nav_buttom">
+						<ul>
+							<li><a href="">首页</a></li>
+							<li><a href="">订阅鲜花</a>
+								<ul class="two">
+									<li><a href="">缤纷设计</a></li>
+									<li><a href="">玫瑰之约</a></li>
+									<li><a href="">轻奢甄选</a></li>
+								</ul>
+							</li>
+							<li><a href="">礼品鲜花</a>
+								<ul class="two">
+									<li><a href="">极速达</a></li>
+									<li><a href="">永生玫瑰</a></li>
+									<li><a href="">经典玫瑰魔盒</a></li>
+								</ul>
+							</li>
+							<li><a href="">绿植多肉</a>
+								<ul class="two">
+									<li><a href="">观赏植物</a></li>
+									<li><a href="">吸水盆栽</a></li>
+								</ul>
+							</li>
+							<li style="padding-right: 30px;"><a href="">花边小物</a>
+								<ul class="two">
+									<li><a href="">手机壳</a></li>
+									<li><a href="">花瓶</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Swiper -->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="img/banner2017032901.jpg" /></div>
+				<div class="swiper-slide"><img src="img/banner2017032902.jpg" /></div>
+				<div class="swiper-slide"><img src="img/timg.jpg" /></div>
+			</div>
+			<div class="swiper-button-prev"></div>
+			<!--左箭头。如果放置在swiper-container外面，需要自定义样式。-->
+			<div class="swiper-button-next"></div>
+			<!--右箭头。如果放置在swiper-container外面，需要自定义样式。-->
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+
+		</div>
+
+		<!--内容-->
+		<div class="content">
+			<div class="title_top">一周一花 订阅未知的鲜美生活</div>
+			<div class="con_t">
+				<div class="top_lm"><img src="img/picture2017032901.jpg" /></div>
+				<div class="top_rm"><img src="img/picture2017032902.jpg" /></div>
+				<div class="con_b">
+					<div class="b_lt">
+						缤纷设计
+					</div>
+					<div class="b_lt2">
+						似锦繁花，五种不同花材，缤纷多样
+					</div>
+				</div>
+				<div class="top_2">
+					<div class="top_2_lt">
+						玫瑰之约
+					</div>
+					<div class="top_2_rt">
+						高贵绚丽，每周一束玫瑰，优雅绽放
+					</div>
+				</div>
+			</div>
+			<div class="title_buttom">产品活动</div>
+			<div class="content_buttom">
+				<div class="buttom_l"><img src="img/banner2018052301.jpg"/></div>
+				<div class="buttom_r">
+					<div class="buttom_t"><img src="img/banner2018052302.jpg"/></div>
+					<div class="buttom_b"><img src="img/picture-bottom-right02.jpg"/></div>
+				</div>
+			</div>
+		</div>
+
+		<!--底部-->
+		<div class="footer">
+			<div class="footer_c">
+				<div class="footer_c_top">
+					<div class="con_l">
+						<div>
+							<p>帮助中心</p>
+							<ul>
+								<li><a href="">常见问题</a></li>
+							</ul>
+						</div>
+						<div>
+							<p>关于我们</p>
+							<ul>
+							<li><a href="">公司简介</a></li>
+							<li><a href="">新闻报道</a></li>
+							<li><a href="">隐私条款</a></li>
+							<li><a href="">招贤纳士</a></li>
+						</ul>
+						</div>
+						<div>
+							<p>公司业务</p>
+							<ul>
+								<li><a href="">商务合作</a></li>
+								<li><a href="">大客户合作</a></li>
+							</ul>
+						</div>
+						<div>
+							<p>公司媒体</p>
+							<ul>
+								<li><a href="">新浪微博</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="con_r" style="text-align: center;">
+						<img src="img/wx_ewm.jpg"/>
+						<p>微信公众号</p>
+					</div>
+				</div>
+				<div class="footer_c_bottom">
+					<ul>
+						<li>Copyright © 2018 上海爱尚鲜花股份有限公司 保留所有权利   &nbsp;&nbsp;&nbsp;</li>
+						<li>&nbsp;&nbsp;&nbsp;ICP备案号： 沪ICP备15035988号-1</li>
+					</ul>
+				</div>
+				<!--图标-->
+				<div class="kfpic">
+					<img src="img/kf2.png" />
+				</div>
+			</div>
+			
+		</div>
+		
+		
+	</body>
+	<!-- Swiper JS -->
+	<script src="js/swiper.min.js"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+			autoplay: true,
+			loop: true,
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+			pagination: {
+				el: '.swiper-pagination',
+				dynamicBullets: true,
+				clickable :true,
+			},
+		});
+	</script>
+
+</html>
